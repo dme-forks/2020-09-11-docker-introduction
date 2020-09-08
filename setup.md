@@ -13,23 +13,22 @@ Download the `docker-intro.zip` file from the main GitHub repository page:
 Move the downloaded file to your Desktop and unzip it. It should unzip to a folder called `docker-intro`. 
 
 ### Software to install
-Unfortunately, in many common situations installing Docker on your laptop will not straightforward if you do not have a large amount of technical experience. We have helpers on hand that have worked their way through the install process but be prepared for some troubleshooting.
+Unfortunately, in many common situations installing Docker on your laptop will not straightforward if you do not have a large amount of technical experience. 
+Workshops try to have helpers on hand that have worked their way through the install process but be prepared for some troubleshooting.
 
-Please try to install the appropriate software from the list below depending on the operating system that your laptop is running:
+You are likely to need to have administrator rights on the computer in order to install the Docker software. If you are using a computer managed by your organisation and do not have administrator rights, you *may* be able to get your organisation's IT staff to install Docker for you. Alternatively your IT support staff *may* be able to give you remote access to a server that can run Docker commands.
+
+Please try to install the appropriate software from the list below depending on the operating system that your computer is running. Do let the workshop organisers know as early as possible if you are unable to install Docker using these instructions, as there may be other options available.
+
 #### Microsoft Windows
-**You must have admin rights to run docker!** Some parts of the lesson will work without running as admin but if you are unable to `Run as admin` on your machine some of this workshop might not work easily.
 
-If you have Windows 10 Pro Edition:
- - First try to install the [Docker Desktop (Windows)](https://hub.docker.com/editions/community/docker-ce-desktop-windows), or **failing that**;
- - Install the [Docker Toolbox (Windows)](https://docs.docker.com/toolbox/toolbox_install_windows/).
-
-If you have Windows 10 Home Edition:
- - Install the [Docker Toolbox (Windows)](https://docs.docker.com/toolbox/toolbox_install_windows/).
+Ideally, you will be able to install the Docker Desktop software, following the [Docker website's documentation](https://docs.docker.com/docker-for-windows/install/). Note that the instructions for installing Docker Desktop on Windows 10 Home Edition are different from other versions of Windows 10.
+Or **failing that** you should try to install the [Docker Toolbox (Windows)](https://docs.docker.com/toolbox/toolbox_install_windows/) software.
 
 #### Apple macOS
-Either:
- - Try this first, although it will not work with older versions of macOS. Install the [Docker Desktop (Mac)](https://hub.docker.com/editions/community/docker-ce-desktop-mac), or **failing that**:
- - Install the [Docker Toolbox (Mac)](https://docs.docker.com/toolbox/toolbox_install_mac/).
+
+Ideally, you will be able to install the Docker Desktop software, following the [Docker website's documentation](https://docs.docker.com/docker-for-mac/install/).
+Or **failing that** you should try to install the [Docker Toolbox (Mac)](https://docs.docker.com/toolbox/toolbox_install_mac/) software.
 
 #### Linux:
 There are too many varieties of Linux to give precise instructions here, but hopefully you can locate documentation for getting Docker installed on your Linux distribution. It may already be installed. Note that Docker do list a number of versions of the Docker Engine for different Linux distributions, at <https://hub.docker.com/search/?type=edition&offering=community>
