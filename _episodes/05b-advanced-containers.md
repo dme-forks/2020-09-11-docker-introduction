@@ -107,7 +107,8 @@ and will stay there even when the container stops.
 >
 > > ## Solution
 > >
-> > This script comes from [the Python Wiki](https://wiki.python.org/moin/SimplePrograms) > > and is set to add all numbers
+> > This script comes from [the Python Wiki](https://wiki.python.org/moin/SimplePrograms)
+> > and is set to add all numbers
 > > that are passed to it as arguments.
 > {: .solution}
 {: .challenge}
@@ -177,8 +178,9 @@ $ /Users/yourname/Desktop/docker-intro/sum
 ~~~
 {: .language-bash}
 
-Take a look at the Dockerfile. It looks similar to the one we used before, but
-it has an additional line with the `COPY` keyword.
+Take a look at the Dockerfile. It looks similar to the template that we used before.
+
+Insert a new line 4, that sits between the last `RUN` line and the `CMD` line:
 
 ~~~
 COPY sum.py /home
