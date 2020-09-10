@@ -46,8 +46,8 @@ You should see output like this:
 ~~~
 Using default tag: latest
 latest: Pulling from library/hello-world
-1b930d010525: Pull complete
-Digest: sha256:f9dfddf63636d84ef479d645ab5885156ae030f611a56f3a7ac7f2fdd86d7e4e
+0e03bdcc26d7: Pull complete 
+Digest: sha256:4cf9c47f86df71d48364001ede3a4fcd85ae80ce02ebad74156906caff5378bc
 Status: Downloaded newer image for hello-world:latest
 docker.io/library/hello-world:latest
 ~~~
