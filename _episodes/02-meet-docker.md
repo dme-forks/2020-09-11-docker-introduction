@@ -30,7 +30,7 @@ $ docker --version
 ~~~
 {: .language-bash}
 ~~~
-Docker version 18.09.1, build 4c52b90
+Docker version 19.03.12, build 48a66213fe
 ~~~
 {: .output}
 
